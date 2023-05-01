@@ -2,14 +2,10 @@ import React from "react";
 
 function footer(){
    return (
-    <div className="card text-bg-dark">
-  <img src="..." className="card-img" alt="..."/>
-  <div className="card-img-overlay">
-    <h5 className="card-title">Card title</h5>
-    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <p className="card-text"><small>Last updated 3 mins ago</small></p>
+    <div className="w-500px" style={{ backgroundColor: "#4E5050",height:"160px",color:"white",display:"flex",alignItems: "center",justifyContent: "center"}}>
+      <p style={{fontSize:"11px"}}>Copyright your website</p>
+
   </div>
-</div>
 
     );
 }
