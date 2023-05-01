@@ -55,10 +55,10 @@ function Card() {
          </div>
        </div>
      </div>
-
-    
+     <br/>    
    </div>
+   
 
-     )
-}
+     );
+};
  export default Card
